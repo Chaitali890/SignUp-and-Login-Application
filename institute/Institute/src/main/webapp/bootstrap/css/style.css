@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+.navbar
+{
+	position: relative;
+  display: flex;
+      justify-content: space-between;
+  
+}
+
+.dropdown-item:hover
+{
+	background-color:linear-gradient(45deg,black,darkslategray);
+	color:gray!important;
+	box-shadow:0 0 5px black;
+}
+.dropdown-menu
+{
+	font-size:12px;
+}
+.bg-teal, .btn-teal{
+	background-color:#2d7070 !important;
+	padding-top:5px;
+}
+.text-teal
+{
+	color:#2d7070 !important;
+}
+.fst-italic
+{
+	font-size:10px;
+}
+#head
+{
+	font-size:50px;
+}
+@media (min-width: 1025px) {
+.h-custom {
+height: 100vh !important;
+}
+}
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+font-size: 1rem;
+line-height: 2.15;
+padding-left: .75em;
+padding-right: .75em;
+}
+.card-registration .select-arrow {
+top: 13px;
+}
+
+.gradient-custom-2 {
+/* fallback for old browsers */
+background: #a1c4fd;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 233, 251, 1));
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 233, 251, 1))
+}
+
+.bg-indigo {
+background-color: #4835d4;
+}
+@media (min-width: 992px) {
+.card-registration-2 .bg-indigo {
+border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+}
+@media (max-width: 991px) {
+.card-registration-2 .bg-indigo {
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+}
+
+
+@media (min-width: 1025px) {
+.h-custom-2 {
+height: 100%;
+}
+}
+.card
+{
+	background:#fff;
+}
+.footer-top
+{
+	background-color: blue;
+}
+.bg-teal,.btn-teal
+{
+	background-color:#004080!important;
+}
+.text-teal
+{
+	color:#004080 !important;
+}
+#sticky
+{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
